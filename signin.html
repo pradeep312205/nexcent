@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sign In — Nexcent</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo"><img src="Icon (2).png" alt="" /> Nexcent</div>
+    <div class="nav-links" id="navLinksSI">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="login-space">
+      <a href="signin.html" class="login-btn">Sign in</a>
+      <a href="signup.html" class="login-btn">Sign up</a>
+      <button id="menuBtnSI" style="margin-left:12px;padding:6px 8px;border-radius:6px;border:0;cursor:pointer">☰</button>
+    </div>
+  </nav>
+
+  <div class="section" style="display:flex;justify-content:center">
+    <form class="form" style="max-width:420px" onsubmit="event.preventDefault(); alert('Sign in attempted (no backend)')">
+      <h1 style="margin-bottom:12px">Sign In</h1>
+      <label for="uemail">Email</label>
+      <input id="uemail" type="email" required placeholder="you@example.com"/>
+      <label for="upass">Password</label>
+      <input id="upass" type="password" required placeholder="••••••"/>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+        <label style="font-weight:600"><input type="checkbox" /> Remember me</label>
+        <a href="contact.html" style="font-size:13px;color:var(--green)">Need help?</a>
+      </div>
+      <button class="login-btn" type="submit">Sign in</button>
+    </form>
+  </div>
+
+  <footer>
+    <div class="footer-col">
+      <div><h3>Nexcent</h3></div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('menuBtnSI').addEventListener('click', ()=>document.getElementById('navLinksSI').classList.toggle('active'));</script>
+</body>
+</html>

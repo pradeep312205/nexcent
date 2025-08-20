@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Services — Nexcent</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo"><img src="Icon (2).png" alt="" /> Nexcent</div>
+    <div class="nav-links" id="navLinksS">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="login-space">
+      <a href="signin.html" class="login-btn">Sign in</a>
+      <a href="signup.html" class="login-btn">Sign up</a>
+      <button id="menuBtnS" style="margin-left:12px;padding:6px 8px;border-radius:6px;border:0;cursor:pointer">☰</button>
+    </div>
+  </nav>
+
+  <div class="section">
+    <h1>Our Services</h1>
+    <p>We offer membership management, event registration, payments & renewals, reporting, and integrations with popular platforms.</p>
+
+    <div class="services-grid" style="margin-top:20px">
+      <div class="card"><h3>Membership Management</h3><p>Automate renewals, roles and member data.</p></div>
+      <div class="card"><h3>Events & Bookings</h3><p>Create events, accept bookings and payments.</p></div>
+      <div class="card"><h3>Integrations</h3><p>Connect with your website, email and payment providers.</p></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-col">
+      <div><h3>Nexcent</h3><p>copyright © 2020 Nexcent Ltd.</p></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menuBtnS').addEventListener('click', ()=>document.getElementById('navLinksS').classList.toggle('active'));
+  </script>
+</body>
+</html>

@@ -1,0 +1,1506 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NEXCENT</title>
+    <link rel="icon" type="image/x-icon" href="Icon (2).png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+     
+      
+      html, body {
+      
+        width: 100%;
+        font-family: Arial, sans-serif;
+        overflow-x: hidden;
+        padding:0;
+      box-sizing: border-box;
+        margin: 0;
+        
+       
+      }   
+     
+
+      div.container {
+        background-color: rgba(245, 247, 250, 1);
+        margin: 20px auto;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+       
+       
+      }
+
+      .container h1 {
+        color: rgba(77, 77, 77, 1);
+        margin-left: 140px;
+        font-size: 50px;
+        
+      }
+
+      .container h2 {
+        color: rgba(76, 175, 79, 1);
+        margin-left: 140px;
+        font-size: 50px;
+        margin-top: -30px;
+      }
+
+      .container p {
+        color: rgba(77, 77, 77, 1);
+        margin-left: 140px;
+        font-size: 19px;
+        
+        margin-top: -20px;
+      }
+
+      .container button {
+        width: 150px;
+        background-color: rgba(76, 175, 79, 1);
+        margin-left: 140px;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 10px;
+      }
+      .login-btn{
+        width: 150px;
+        background-color: rgba(76, 175, 79, 1);
+        margin-left: px;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        margin-top: 20px;
+        text-decoration: none ;
+        padding: 10px;
+      }
+
+      .container img {
+        width: 400px;
+        height: auto;
+        margin-left: 210px;
+      }
+
+      div.container2 {
+        display: flex;
+        justify-content: space-evenly;
+      
+        flex-wrap: wrap;
+         transition: 2s;
+       
+        padding:  20px 0 0 0;
+        box-sizing: border-box;
+        
+      }
+      .container30{
+        display:flex;
+        justify-content: space-evenly;
+        gap:20px;
+        padding:20px;
+      }
+      .container3 {
+          
+        width:20%;
+        text-align:center;
+        
+   color:rgba(77, 77, 77, 1);
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-right:90px;
+        padding: 10px;
+        margin-left:70px;
+        box-sizing: border-box;
+        background-color:rgba(255, 255, 255, 1);
+       border-radius: 12px;
+       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+      .container4{
+        
+   width:20%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        text-align:center;
+       color:rgba(77, 77, 77, 1);
+        margin-bottom:-20px;
+        box-sizing: border-box;
+        margin-right:70px;
+        margin-left:30px;
+        background-color:rgba(255, 255, 255, 1);
+         border-radius: 12px;
+       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+      .container5{
+   width:20%;
+        gap:20px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        text-align:center;
+        box-sizing: border-box;
+        color:rgba(77, 77, 77, 1);
+        margin-right:30px;
+        margin-left:10px;
+   background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+
+        div.container01 {
+       
+        display: flex;
+        justify-content: space-between;
+        gap:40px;
+        align-items: center;
+      
+       
+       
+      }
+
+        nav {
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+    .nav-links {
+      flex: 2;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #0077ff;
+    }
+
+    .menu-toggle {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .menu-toggle span {
+      height: 3px;
+      width: 25px;
+      background-color: #333;
+      margin: 4px 0;
+      transition: 0.3s ease;
+    }
+
+    @media (max-width: 768px) {
+  
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .menu-toggle {
+        display: flex;
+      }
+    }
+
+      .container7 h1 {
+        color: rgba(77, 77, 77, 1);
+        
+        margin-left: 630px;
+        margin-top: -320px;
+        margin-right: 100px;
+        font-size: 50px;
+        
+      }
+
+      .container7 h2 {
+        color: rgba(76, 175, 79, 1);
+       
+        font-size: 50px;
+        margin-top: 10px;
+        margin-left: 630px;
+        margin-top: -330px;
+        margin-right: 100px;
+        margin-bottom: 10px;
+      }
+
+      .container7 p {
+        color: rgba(77, 77, 77, 1);
+       
+        font-size: 19px;
+        margin-left: 630px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom:30px;
+      }
+
+      .container7 button {
+        width: 150px;
+        background-color: rgba(76, 175, 79, 1);
+        margin-left: 140px;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        margin-top: 20px;
+        padding: 10px;
+        margin-left: 630px;
+        margin-top: -330px;
+        margin-right: 100px;
+      }
+
+      .container6 {
+        width: 400px;
+        height: auto;
+        margin-left: 140px;
+        margin-top:100px; 
+      }
+
+
+      div.container8 {
+        width: 100%;
+        background-color: rgba(245, 247, 250, 1);
+        opacity: 1;
+        margin: 50px auto;
+        height: 200px;
+        padding: 40px;
+        
+      }
+
+      .container8 h1 {
+        color: rgba(77, 77, 77, 1);
+        margin-left: 110px;
+        font-size: 40px;
+      }
+
+      .container8 h2 {
+        color: rgba(76, 175, 79, 1);
+        margin-left: 110px;
+        font-size: 40px;
+        margin-top: -20px;
+      }
+
+      .container8 p {
+        color: rgba(77, 77, 77, 1);
+        margin-left: 110px;
+        font-size: 19px;
+        max-width: 600px;
+        margin-top: -16px;
+      }
+
+      .container9 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .container9 img {
+        max-width: 100%;
+        width: 400px;
+        height: auto;
+        margin: 20px auto;
+        margin-top: -150px;
+        margin-left: 800px;
+      }
+.container02{
+        display: flex;
+        justify-content: space-between;
+        gap:60px;
+        align-items: center;
+        margin-top:10px;
+}
+      .container10 img {
+            width: 400px;
+        height: auto;
+        margin-left: 140px;
+        margin-top:10px; 
+      }
+
+
+      .container11 h1 {
+        color: rgba(77, 77, 77, 1);
+        margin-top:10px;
+        
+      }
+
+      .container11 p {
+        color: rgba(77, 77, 77, 1);
+        margin-right:150px;
+      }
+
+      .container11 button {
+        background-color: rgba(76, 175, 79, 1);
+        color: white;
+        width: 151px;
+        height: 52px;
+        border-radius: 4px;
+        border: 0;
+        margin-top: 20px;
+      }
+
+      .container12 img {
+        max-width: 100%;
+        height: auto;
+        padding-top: 100px;
+        margin-left: 190px;
+      }
+
+      .container13 {
+        margin-left: 550px;
+        margin-top: -240px;
+        margin-right:150px;
+      }
+
+      .container13 p {
+        color: rgba(77, 77, 77, 1);
+        
+      }
+.container13 p1 {
+font-size:10px;
+
+}
+      .container13 h2 {
+        color: rgba(76, 175, 79, 1);
+        margin-top: -15px;
+        font-size:15px;
+        margin-bottom:5px;
+      }
+      .container14{
+        margin-left:458px;
+        display:flex;
+        justify-content:space-evenly;
+        height:28px;
+        margin-top:5px;
+      }
+      .container16{
+        margin-top:60px;
+        gap:10px;
+        color:rgba(113, 113, 113, 1);
+      }
+      .container16 p{
+        padding:10px;
+        text-align:center;
+      }
+      .container17 {
+    padding: 90px 20px;
+  
+  }
+  
+  .container19 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .container20 {
+    width: 300px;
+    position: relative;
+    border-radius: 12px;
+    overflow: visible;
+  }
+
+  .container20 img {
+    max-width:auto;
+    width: 100%;
+    height: 200px;
+    margin : 0 auto;
+   margin-top: 10px;
+    border-radius: 12px;
+  }
+
+  .container21 {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    position: absolute;
+    bottom: -40px;
+    margin: auto;
+    width: 70%;
+     left: 20px; 
+    z-index: 2;
+  }
+
+  .container21 h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .container22 {
+    color: green;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .container22::after {
+    content: '→';
+  }
+  .container23{
+    background-color:rgba(245, 247, 250, 1) ;
+   
+    margin-top:20px;
+    padding:10px;
+  }
+  .container23 h1{
+    color:rgb(65, 63, 63); 
+    font-size: 60px;
+  }
+  .container23 button{
+color:white;
+background-color:#4CAF50;
+margin-top:10px;
+border: 0px;
+border-radius:5px;
+width:170px;
+height:50px;
+
+ 
+  }
+
+
+   div.container24 {
+        background-color: rgba(38, 50, 56, 1); 
+        color: white;
+        padding: 40px;
+        display: flex;
+        justify-content: space-between;
+         
+        
+        gap: 70px; 
+        flex-wrap: wrap; 
+      }
+
+      .inside0 {
+        flex: 1 1 auto;
+      }
+
+      .inside1, .inside2 {
+        flex: 1 1 auto;
+        margin-right: 40px; 
+      }
+
+      .inside2 {
+        margin-right: 0; 
+      }
+
+      .container25 {
+        flex: 1 1 auto;
+        margin-top: 10px;
+      }
+
+      .container25 input {
+        padding: 10px;
+        border-radius: 6px;
+        border: none;
+        background-color: rgb(59, 57, 57);
+        color: white;
+        background: url('send.png') no-repeat 10px right;
+      }
+
+      .container25 img {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: -25px;
+      }
+
+
+
+      @media screen and (max-width: 744px) {
+        .container {
+          padding: 20px;
+         
+        }
+
+        .container h1 {
+          font-size: 40px;
+          margin: -30px 30px 10px 5px;
+        }
+
+        .container h2 {
+          font-size: 30px;
+          margin-top: 20px;
+          margin-left: 5px;
+        }
+
+        .container p {
+          
+  font-size: 16px;
+    color: #6c6c6c;
+    line-height: 1.5;
+    width: 300px;
+    
+    margin-left:5px;
+    margin-top:5px;
+        }
+
+        .container button {
+          width: 140px;
+          height: 45px;
+          
+          margin-left:5px;
+          
+        }
+
+        .container img {
+          width: 180px;
+          height: auto;
+          position: static;
+          display: block;
+          margin-left:15px;
+          margin-top:40px;
+
+}
+.container30{
+  gap:0px;
+}
+ .container3{
+  width:20%;
+  margin :-10 0 0 -0px;
+  margin-left:50px;
+  font-size: 8px;
+  color: rgba(77, 77, 77, 1);
+  
+  
+}
+
+.container4{
+ 
+  width:20%;
+  margin :-10 10 0 0px;
+  margin-left:50px;
+  font-size: 8px;
+  color: rgba(77, 77, 77, 1);
+  
+ 
+  
+}
+.container5 {
+   
+  width:20%;
+ margin :20 0 0 20px;
+ margin-left:33px;
+  font-size: 10px;
+  color: rgba(77, 77, 77, 1);
+  
+   
+   
+  
+}
+
+.container6 {
+  width: 100%;
+  max-width: 300px;
+ 
+  margin-left: -30px;
+}
+
+.container6 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.container7 {
+ margin-left: 240px;
+  margin-top: -350px;
+  
+}
+.container7 br{
+  display: none;
+}
+
+.container7 h1 {
+  font-size: 20px;
+  color: #333;
+
+}
+
+.container7 p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  margin-right: 0px;
+}
+
+.container7 button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  
+}
+div.container8 {
+        width: 100%;
+        max-width: 744px; 
+        background-color:rgba(245, 247, 250, 1);
+        opacity: 1;
+        margin: 100px auto;
+        height: 200px;
+        padding: 30px;
+      
+        
+      }
+
+      .container8 h1 {
+        color: rgba(77, 77, 77, 1);
+        margin-left: -10px;
+        font-size: 20px;
+        margin-top: 50px;
+        
+      }
+
+      .container8 h2 {
+        color: rgba(76, 175, 79, 1);
+        margin-left: -10px;
+        font-size: 20px;
+        margin-top: -15px;
+       
+       
+      }
+
+      .container8 p {
+        color: rgba(77, 77, 77, 1);
+        margin-left: -10px;
+        font-size: 12px;
+        max-width: 600px;
+        margin-top: 10px;
+      }
+
+
+      .container9  {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+}
+
+.container9 img {
+
+  width: 40%;
+  height: auto;
+  margin: 20px auto; 
+  margin-top: -90px;
+  margin-left: 370px;
+    
+}
+
+.container10 {
+  width: 100%;
+  max-width: 200px;
+ 
+}
+
+.container10 img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left:20px;
+  margin-top:10px;
+
+}
+
+.container11 {
+ margin-left: 240px;
+  margin-top: -190px;
+  
+}
+.container11 br{
+  display: none;
+}
+
+.container11 h1 {
+  font-size: 20px;
+  color: #333;
+
+}
+
+.container11 p {
+  font-size: 10px;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  margin-right:0px;
+}
+
+.container11 button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  
+}
+.container12 img {
+ 
+width: 250.51171875px;
+   height: 280px;
+   top: 54.35px;
+   padding-top: 110px;
+   margin-left:10px;
+
+}
+
+.container13 {
+ margin-left: 280px;
+  margin-top: -287px;
+  
+  
+}
+
+
+.container13 p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+  margin-right:0px;
+  
+}
+.container13 h2{
+  
+  color:rgba(76, 175, 79, 1);
+ font-size:13px;
+margin-top:-10px;
+
+ }
+ .container13 p1{
+  color: rgba(77, 77, 77, 1);
+ font-size: 12px;
+ margin-top: -20px;
+ }
+      div.container14 {
+  margin-top:10px;
+  width:400px;
+  height: 30px;
+  margin-left: 270px;
+      }   
+      .container16{
+        margin-top:100px;
+      }
+        
+    .container17 {
+    padding: 90px 20px;
+  
+  }
+  
+  .container19 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .container20 {
+    width: 170px;
+    position: relative;
+    border-radius: 12px;
+    overflow: visible;
+    
+  }
+
+  .container20 img {
+    max-width:auto;
+    width: 100%;
+    height: auto;
+    margin : 0 auto;
+   margin-top: -10px;
+   margin-left: -5px;
+    
+  }
+  
+
+  .container21 {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    padding: 10px;
+    
+    border-radius: 12px;
+    position: absolute;
+    margin: auto;
+    width: 70%;
+    height: 70%;
+    left: 10px;
+    
+  }
+
+  .container21 h3 {
+    
+    font-size: 10px;
+    
+    font-weight: bold;
+    color: #333;
+
+    margin-bottom: -5px;
+  }
+
+  .container22 {
+    color: green;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: -15px;
+    margin-top:20px;
+    font-size: 10px;
+    text-decoration: none;
+  }
+
+  .container22::after {
+    content: '→';
+  }
+  .container23 {
+    
+    margin-left:-10px;
+    
+  }
+    .container24 {
+  background-color: rgba(38, 50, 56, 1); 
+  color: white;
+  max-width:790px;
+
+  margin : o auto;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 70px; 
+
+}
+   .container25 {
+      flex: 1 1 255px;
+      margin-top: -30px;
+    }
+
+    .container25 input {
+      width: 30%;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+    }
+      }
+
+
+
+
+      
+      
+      @media screen and (max-width: 360px) {
+        .container {
+          
+          margin-top: 60px;
+          margin-left: 50px;
+        }
+
+        .container h1 {
+          
+          margin-top: 30px;
+          font-size:30px;
+          text-align:center;
+          margin-left:15px;
+        }
+
+        .container h2 {
+          font-size: 36px;
+          margin-left: 45px;
+          margin-top: -10px;
+          position: absolute;
+        }
+
+        .container p {
+          font-size: 20px;
+          margin-left: 25px;
+          margin-top: 300px;
+          text-align: center;
+        }
+
+        .container button {
+          width: 140px;
+          height: 60px;
+          margin-left: 100px;
+          margin-top: -10px;
+        }
+
+        .container img {
+          width: 200px;
+          margin-left: -290px;
+          margin-top: -80px;
+          height: 200px;
+        }
+        div.container1 h1{
+         margin-left:20px;
+        }
+
+        .kp{
+          margin-left: 5px;
+        }
+  
+       div.container2 {
+  display: grid;                     
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;                          
+  justify-items: center;              
+  width: 90%;                         
+  max-width: 1152px;                  
+  margin: 0 auto;                     
+  box-sizing: border-box;
+  margin-left: 40px;
+
+}
+
+div.container2 img {
+  width: clamp(60px, 20%, 100px); 
+  height: auto;
+  margin-left:-30px;
+}
+
+.kp2{
+  margin-left: -10px;
+}
+.container30{
+  display:grid;
+  grid-template-columns: repeat(1, 3fr);
+  gap:50px;
+  
+}
+.container3{
+  justify-content: center;
+ width:160px;
+  align-items: center;
+   flex-wrap: wrap;
+   margin-left: 70px;
+   
+   
+}
+.container30 img{
+  width:40px;
+}
+.container4{
+ justify-content: center;
+  align-items: center;
+  
+  font-size: 7px;
+  margin-top: -20px;
+flex-wrap: wrap;
+  width:160px;
+  margin-left: 70px;
+}
+.container5{
+  justify-content: center;
+  align-items: center;
+  margin-left: 70px;
+  font-size:10px;
+ flex-wrap: wrap;
+  width:160px;
+}
+  .container6 {
+    max-width: 360px;
+    margin-left: -10px;
+   margin-top: 10px;
+   
+  }
+
+  .container7 {
+    margin-top: 25px;
+    margin-left: 50px;
+    
+   
+  }
+.container7 br{
+  display:none;
+}
+  .container7 h1 {
+    font-size: 15px;
+    margin-top: -420px;
+    text-align: center; 
+    margin-right:0px;
+    
+    
+    
+   
+  }
+
+  .container7 p {
+    font-size: 12px;
+    margin-top: 290px;
+    margin-left: 50px; 
+    
+  }
+
+  .container7 button {
+    font-size: 12px;
+  
+    margin-left: 50px;
+  }
+  .container8{
+    height: 247px;
+    margin-left: 50px;
+  }
+  .container8 h1{
+margin-top: -10px;
+text-align: right;
+margin-right: 140px;
+  }
+  .container8 h2{
+  margin-left: 40px ;
+  }
+  .container8 p{
+    margin-left: 20px ;
+  }
+  .container9{
+    max-width: 500px;
+    margin-top: 130px;
+    margin-left: -280px;
+  }
+   .container10 {
+    width: 90%;
+  height: auto;
+  display: block;
+ padding-top: 40px;
+  margin-left: 30px;  
+   margin-top: -30px;
+  }
+
+  .container11 {
+   
+      margin-top: 25px;
+    margin-left:60px;
+   
+  }
+
+  .container11 h1 {
+    font-size: 20px;
+    margin-top: -270px;
+    margin-right:0px;
+     text-align:center; 
+    font-size: 15px;
+   
+    
+    
+   
+  }
+
+  .container11 p {
+  font-size: 12px; 
+    margin-top: 240px;
+    margin-left: 40px;
+   
+  }
+
+  .container11 button {
+    font-size: 12px;
+  
+    margin-left: 30px;
+  } 
+.container12 img {
+    width: 240px;
+    padding-top: 40px;
+    margin: 0 auto 30px; 
+    margin-left: 60px;
+    display: block;
+  }
+
+  .container13 {
+    margin: 10px auto 0;
+    text-align: center; 
+  }
+
+  .container13 p{
+    font-size: 12px; 
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .container13 p1{
+    font-size: 12px; 
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+  .container13 h2 {
+    font-size: 12px; 
+    margin-top: 5px;
+    margin-left: 20px;
+  }
+
+  div.container14 {
+display: grid;
+grid-template-columns: repeat(3,3fr);
+gap:5px;
+margin-top:50px;
+margin-left:20px;
+  }
+  .pp{
+   display:none;
+  }
+  
+  
+  .container16 h1 {
+    margin-top: 130px;
+    margin-left: 10px;
+    
+  }
+  .container16 p{
+    margin-left: 0px;
+  }.container17{
+    margin-top:-90px;
+  }
+  .container20 {
+    margin-left: -10px;
+   margin-top: 20px;
+   width:auto;
+  }
+  .container20 img{
+
+margin-bottom:100px;
+  }
+  .container21 {
+    margin-bottom:30px;
+   
+    
+}
+.container22{
+  padding:40px;
+}
+.container23{
+  margin-left:-35px;
+  margin-top:-10px;
+}
+
+.container24 h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.container24 p {
+  font-size: 13px;
+  color: #ccc;
+  margin: 5px 0;
+}
+ .container24 {
+  background-color: rgba(38, 50, 56, 1); 
+  color: white;
+  
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+  gap: 23px; 
+}
+.inside0{
+  margin-left: 50px;
+}
+
+.container25{
+  margin-top: 10px;
+  justify-content: center;
+   margin-left:40px;
+   
+}
+
+    .container25 input {
+      width: 70%;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      background-color: #333;
+    }
+   .inside0{
+    margin-right:30px;
+   }
+
+      }
+      nav {
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+    .nav-links {
+      text-align: center;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #0077ff;
+    }
+
+    .menu-toggle {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+
+    .menu-toggle span {
+      height: 3px;
+      width: 25px;
+      background-color: #333;
+      margin: 4px 0;
+      transition: 0.3s ease;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        background: #fff;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 200px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .menu-toggle {
+        display: flex;
+      }
+    }
+
+    </style>
+  </head>
+  <body>
+    <nav>
+    <div class="logo"><img src="Icon (2).png" alt="" /> Nexcent</div>
+
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="login-space">
+      <a href="signin.html" class="login-btn">Sign in</a>
+      <a href="signup.html" class="login-btn">Sign up</a>
+
+      <!-- mobile menu toggle -->
+    </div>
+  </nav>
+    <div class="container">
+      <div class="text-content">
+        <h1>Lessons and insights</h1>
+        <h2>from 8 years</h2>
+        <p>
+          Where to grow your business as a photographer: site or social media?
+        </p>
+<button type="button" class="login-btn" onclick="location.href='signup.html'">Register</button>
+      </div>
+      <img src="Illustration.png" alt="nexus" />
+    </div>
+    <div class="container1">
+   <div class="kp">
+      <center>
+      <h1 style="color: rgba(77, 77, 77, 1);font-size:36px;">Our Clients</h1>
+      <h2 style="color: rgba(77, 77, 77, 1);font: size 16px;">We have been working with some Fortune 500+ clients</h2>
+      
+    </center>
+    </div>
+  <div class="container2">
+      <img src="Logo.png" alt="Logo 1" />
+      <img src="Logo (1).png" alt="Logo 2" />
+      <img src="Logo (2).png" alt="Logo 3" />
+      <img src="Logo (3).png" alt="Logo 4" />
+      <img src="Logo (4).png" alt="Logo 5" />
+      <img src="Logo (5).png" alt="Logo 6" />
+      
+  </div>
+  <div class="kp2">
+  <center>
+    
+    <h1 style="color: rgba(77, 77, 77, 1);font-size:36px;padding-top:20px;">Manage your entire community <br> in a single system </h1>
+    <h2 style="color: rgba(77, 77, 77, 1);font-size: 16px;">Who is Nextcent suitable for?</h2>
+  </center>
+  </div>
+  <div class="container30">
+  <div class="container3">
+
+<img src="Icon (3).png">
+<h1>Membership<br> Organization</h1>
+ <p>Our membership management software provides full automation of membership renewals and payments</p>
+
+
+
+</div>
+<div class="container4">
+  
+  <img src="Icon (4).png">
+  <h1>National<br> Association</h1>
+  <p>Our membership management software provides full automation of membership renewals and payments</p>
+
+
+</div>
+<div class="container5">
+<img src="Icon (5).png">
+<h1>Clubs and<br> Groups</h1>
+  <p>Our membership management software provides full automation of membership renewals and payments</p>
+  
+  </div>
+  
+</div>
+<div clas="conatiner01">
+<div class="container6">
+  <img src="rafiki.png">
+</div>
+<div class="container7">
+  <h1>The unseen of spending three <br>years at Pixelgrade</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+  <button>Learn More.</button></div></div>
+  <div class="container8">
+    <h1>Helping a Local</h1>
+    <h2>business revient itself</h2>
+    <p>we reached here with our handwork and detication</p>
+    <div class="container9">
+    <img src="Counts.png">
+  </div>
+</div>
+<div class="container02">
+<div class="container10">
+  <img src="pana.png">
+</div>
+<div class="container11">
+  <h1>How to design footer like we did</h1>
+  <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
+  <button>Learn More.</button></div></div>
+  <div class="container12">
+  <img src="image 9.png">
+</div>
+
+<div class="container13">
+  
+  <p>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
+  <h2>Tim Smith</h2>
+  <p1>British Dragon Boat Racing Association</p1></div>
+    <div class="container14">
+      <img src="Logo.png" alt="Logo 1" />
+      <img src="Logo (1).png" alt="Logo 2" />
+      <img src="Logo (2).png" alt="Logo 3" />
+      <img src="Logo (3).png" alt="Logo 4" />
+      <img src="Logo (4).png" alt="Logo 5" />
+      <img src="Logo (5).png" alt="Logo 6" />
+      <img src="Frame 13.png" class="pp">
+      </div>
+      
+      
+<div class="container16">
+  <center>
+    <h1>Caring is the new marketing</h1>
+    <p>
+      The Nexcent blog is the best place to read about the latest membership insights<br>, trends and more. See who's joining the community, read about how our community <br>are increasing their membership income and lot's more.
+    </p>
+  </center>
+    </div>
+      
+ 
+  <div class="container17">
+  <div class="container19">
+    <div class="container20">
+      <img src="image 18.png" alt="Card 1">
+      <div class="container21">
+        <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
+        <a href="#" class="container22">Readmore</a>
+      </div>
+    </div>
+
+    <div class="container20">
+      <img src="image 19.png" alt="Card 2">
+      <div class="container21">
+        <h3>What are your safeguarding responsibilities and how can you manage </h3>
+        <a href="#" class="container22">Readmore</a>
+      </div>
+    </div>
+    <div class="container20">
+      <img src="image 20.png" alt="Card 3">
+      <div class="container21">
+        <h3>Revamping the Membership Model with Triathlon Australia</h3>
+        <a href="#" class="container22">Readmore</a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container23">
+  <center >
+  <h1 >Pellentesque suscipit <br> fringilla libero eu.</h1>
+  <button > Get a Demo → </button></center>
+</div>
+    <div class="container24">
+    <div class="inside0">
+      <h1>Nexcent</h1>
+      <p>copyright © 2020 Nexcent Ltd.</p>
+      <p>All rights reserved.</p>
+      <img src="nexus 11.png" alt="nexus image" width="250" height="50" style="margin-left: -50px;margin-top: 10px;"><br>
+    </div>
+
+    <div class="insdie1">
+      <h2>Company</h2>
+      <p>About us</p>
+      <p>Blog</p>
+      <p>Contact us</p>
+      <p>Pricing</p>                                         
+      <p>testimonials</p>
+    </div>
+
+    <div class="inside2">
+      <h2>Support</h2>
+      <p>Help center</p>
+      <p>Terms of service</p>
+      <p>legal</p>
+      <p>Privacy policy</p>
+      <p>status</p>
+    </div>
+
+    <div class="container25">
+      <h2>Stay up to date</h2>
+      <input  type="email"  placeholder="Your email address" style="color:white">
+      <img src="send.png">
+      
+    </div>
+    </div>
+    
+  </body>
+</html>

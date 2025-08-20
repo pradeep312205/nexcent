@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Nexcent</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo"><img src="Icon (2).png" alt="" /> Nexcent</div>
+    <div class="nav-links" id="navLinksC">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="login-space">
+      <a href="signin.html" class="login-btn">Sign in</a>
+      <a href="signup.html" class="login-btn">Sign up</a>
+      <button id="menuBtnC" style="margin-left:12px;padding:6px 8px;border-radius:6px;border:0;cursor:pointer">☰</button>
+    </div>
+  </nav>
+
+  <div class="section">
+    <h1>Contact Us</h1>
+    <p>If you need help or want a demo, send us a message and we'll reply within 1-2 business days.</p>
+
+    <div style="margin-top:18px; display:flex; gap:24px; flex-wrap:wrap">
+      <form class="form" onsubmit="event.preventDefault(); alert('Demo request sent (no backend)')">
+        <label for="name">Name</label>
+        <input id="name" required placeholder="Your name"/>
+        <label for="email">Email</label>
+        <input id="email" type="email" required placeholder="you@example.com"/>
+        <label for="message">Message</label>
+        <textarea id="message" rows="6" placeholder="How can we help?"></textarea>
+        <button class="login-btn" type="submit">Send message</button>
+      </form>
+
+      <div style="min-width:240px">
+        <h3>Office</h3>
+        <p>123 Nexcent Lane<br/>City, Country</p>
+        <h3 style="margin-top:12px">Email</h3>
+        <p>support@nexcent.example</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-col">
+      <div><h3>Nexcent</h3><p>copyright © 2020 Nexcent Ltd.</p></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menuBtnC').addEventListener('click', ()=>document.getElementById('navLinksC').classList.toggle('active'));
+  </script>
+</body>
+</html>

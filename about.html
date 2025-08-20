@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Nexcent</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- same nav markup so links redirect -->
+  <nav>
+    <div class="logo"><img src="Icon (2).png" alt="" /> Nexcent</div>
+    <div class="nav-links" id="navLinksA">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="login-space">
+      <a href="signin.html" class="login-btn">Sign in</a>
+      <a href="signup.html" class="login-btn">Sign up</a>
+      <button id="menuBtnA" style="margin-left:12px;padding:6px 8px;border-radius:6px;border:0;cursor:pointer">☰</button>
+    </div>
+  </nav>
+
+  <div class="section">
+    <h1>About Us</h1>
+    <p>We’re Nexcent — building community management tools for organizations of all sizes. For 8 years we've helped clubs, associations and enterprises streamline membership and engagement.</p>
+    <p style="margin-top:16px">Our mission: make membership management simple, secure and scalable.</p>
+  </div>
+
+  <footer>
+    <div class="footer-col">
+      <div><h3>Nexcent</h3><p>copyright © 2020 Nexcent Ltd.</p></div>
+      <div><h3>Company</h3><p>About • Blog • Contact • Pricing</p></div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menuBtnA').addEventListener('click', ()=>document.getElementById('navLinksA').classList.toggle('active'));
+  </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sign Up — Nexcent</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo"><img src="Icon (2).png" alt="" /> Nexcent</div>
+    <div class="nav-links" id="navLinksSU">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="login-space">
+      <a href="signin.html" class="login-btn">Sign in</a>
+      <a href="signup.html" class="login-btn">Sign up</a>
+      <button id="menuBtnSU" style="margin-left:12px;padding:6px 8px;border-radius:6px;border:0;cursor:pointer">☰</button>
+    </div>
+  </nav>
+
+  <div class="section" style="display:flex;justify-content:center">
+    <form class="form" style="max-width:520px" onsubmit="event.preventDefault(); alert('Account created (no backend)')">
+      <h1 style="margin-bottom:12px">Create Account</h1>
+      <label for="name">Full name</label>
+      <input id="name" required placeholder="Your name" />
+      <label for="email">Email</label>
+      <input id="email" type="email" required placeholder="you@example.com" />
+      <label for="password">Password</label>
+      <input id="password" type="password" required placeholder="Choose a password" />
+      <label for="company">Organization (optional)</label>
+      <input id="company" placeholder="Company or club name" />
+      <button class="login-btn" type="submit">Sign up</button>
+    </form>
+  </div>
+
+  <footer>
+    <div class="footer-col">
+      <div><h3>Nexcent</h3></div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('menuBtnSU').addEventListener('click', ()=>document.getElementById('navLinksSU').classList.toggle('active'));</script>
+</body>
+</html>
